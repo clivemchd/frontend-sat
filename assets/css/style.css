@@ -1,9 +1,18 @@
 
+/* FOR FIREFOX: firefox keeps adding an dotted outline on anchor elements this removes it*/
+a {
+	outline: none;
+}
+
 /*******************************
  * Header
  ******************************/
 
 .brand-logo {
 	height: 50px;
-	margin-top: -15px;
+	margin-top: -15px
+}
+
+.image-view img {
+	height: 50px;
 }
